@@ -88,6 +88,14 @@ export default {
         href: 'https://fonts.googleapis.com/icon?family=Material+Icons&display=swap'
       }
     ],
+    script: [
+      { innerHTML: '!function(a,b){var c=window;c.SessionStack=a,c[a]=c[a]||function(){\n' +
+          '    c[a].q=c[a].q||[],c[a].q.push(arguments)},c[a].t=b;var d=document.createElement("script");\n' +
+          '    d.async=1,d.src="https://cdn.sessionstack.com/sessionstack.js";\n' +
+          '    var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(d,e);\n' +
+          '    }("sessionstack", {"token": "5002576f5d264ffa99dec30df4bb553d", "isIframe": true});', type: 'text/javascript', charset: 'utf-8'}
+    ],
+    __dangerouslyDisableSanitizers: ['script'],
   },
   /*
    ** Customize the progress-bar color
