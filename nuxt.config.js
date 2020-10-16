@@ -123,8 +123,6 @@ export default {
     "@nuxtjs/svg",
     // Doc: https://tailwindcss.nuxtjs.org
     "@nuxtjs/tailwindcss",
-    // Doc: https://color-mode.nuxtjs.org
-    "@nuxtjs/color-mode",
   ],
   /*
    ** Nuxt.js modules
@@ -140,6 +138,8 @@ export default {
     "@nuxtjs/robots",
     // Doc: https://github.com/nuxt-community/sitemap-module
     "@nuxtjs/sitemap",
+    // Doc: https://color-mode.nuxtjs.org
+    "@nuxtjs/color-mode",
   ],
   pwa: {
     meta: {

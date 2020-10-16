@@ -2384,8 +2384,8 @@ export default {
           break
         default:
           this.method = "GET"
-          this.url = "https://httpbin.org"
-          this.path = "/get"
+          this.url = this.params.url ? this.params.url : "https://httpbin.org"
+          this.path = this.params.path ? this.params.path : "/get"
           this.uri = this.url + this.path
           this.label = ""
           this.bodyParams = []
