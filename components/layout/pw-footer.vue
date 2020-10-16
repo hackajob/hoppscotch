@@ -29,30 +29,6 @@
         </span> -->
         <!-- <span v-if="version.variant">({{version.variant}})</span> -->
       </span>
-      <span>
-        <a href="https://liyasthomas.web.app" target="_blank" rel="noopener">
-          <button class="icon" v-tooltip="'Liyas Thomas'">🦄</button>
-        </a>
-        <a href="mailto:liyascthomas@gmail.com" target="_blank" rel="noopener">
-          <button class="icon" v-tooltip="$t('contact_us')">
-            <i class="material-icons">email</i>
-          </button>
-        </a>
-        <v-popover>
-          <button class="icon" v-tooltip="$t('choose_language')">
-            <i class="material-icons">translate</i>
-          </button>
-          <template slot="popover">
-            <div v-for="locale in availableLocales" :key="locale.code">
-              <nuxt-link :to="switchLocalePath(locale.code)">
-                <button class="icon" v-close-popover>
-                  {{ locale.name }}
-                </button>
-              </nuxt-link>
-            </div>
-          </template>
-        </v-popover>
-      </span>
     </div>
   </footer>
 </template>

@@ -2,8 +2,8 @@
   <div class="wrapper">
     <div class="content">
       <div class="columns">
-        <sidenav />
         <main>
+          <pw-header />
           <nuxt />
           <pw-footer />
         </main>
