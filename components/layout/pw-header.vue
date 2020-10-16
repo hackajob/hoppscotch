@@ -226,6 +226,7 @@ export default {
     // etc.
     ;(async () => {
       this.showInstallPrompt = await intializePwa()
+      localStorage.setItem("cookiesAllowed", "yes")
       let cookiesAllowed = localStorage.getItem("cookiesAllowed") === "yes"
       if (!cookiesAllowed) {
         this.$toast.show(this.$t("we_use_cookies"), {
