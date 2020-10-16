@@ -79,6 +79,14 @@ export default {
         rel: "apple-touch-startup-image",
         href: "/icon.png",
       },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Poppins:500,700|Roboto+Mono:400&display=swap'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/icon?family=Material+Icons&display=swap'
+      }
     ],
   },
   /*
