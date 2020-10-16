@@ -1331,7 +1331,7 @@ export default {
       showRequestModal: false,
       editRequest: {},
       urlExcludes: {},
-      activeSidebar: true,
+      activeSidebar: false,
       fb,
       customMethod: false,
       files: [],

@@ -4,7 +4,6 @@
       <div class="columns">
         <sidenav />
         <main>
-          <pw-header />
           <nuxt />
           <pw-footer />
         </main>
